@@ -13,8 +13,13 @@ $ cd target/
 $ mkdir wide 
 $ mkdir dud 
 ```
-Finally, it takes 3 days for query and download the entire data. 
+Finally, it takes ~3 days for query and download the entire data. 
 ```shell
-$ python query_wide.py 
-$ python query_dud.py 
+$ python3 query_wide.py 
+$ python3 query_deep.py 
 ``` 
+
+If you want to split the data tract by tract, run the code
+```shell
+$ python3 splitTract.py 
+```
